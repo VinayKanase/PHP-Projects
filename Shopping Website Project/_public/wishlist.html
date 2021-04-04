@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="css/fontawesome.css" /> -->
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <title>Shopping Website</title>
+  </head>
+  <body>
+    <marquee>This is my Learning Project not real website</marquee>
+    <!-- 
+    ! If logined user then Hello,Username
+
+    Home
+    Shop by Categories 
+    Your Orders 
+    Your WishList 
+    Your Account Settings
+    About US 
+   ?Cart Icon 
+   -->
+    <header class="bg-dark bg-custom">
+      <nav class="navbar side-navs">
+        <a class="btn btn-primary btn-hoverout" href="/login">Login</a>
+        <a class="btn btn-primary btn-hoverout" href="/signin">Sign in</a>
+      </nav>
+      <nav class="main navbar">
+        <a class="navbar-brand text-white" href="/">Shopping Website</a>
+        <ul class="nav">
+          <li>
+            <a href="/" class="nav-link active">Home</a>
+          </li>
+          <li>
+            <a href="categories.html" class="nav-link">Shop by Categories</a>
+          </li>
+          <li class="disabled" style="opacity: 0.2; cursor: not-allowed">
+            <a href="" class="nav-link" style="cursor: not-allowed"
+              >Your Orders</a
+            >
+          </li>
+          <li>
+            <a href="" class="nav-link">Your Wish List</a>
+          </li>
+          <li>
+            <a href="" class="nav-link">Your Account Settings</a>
+          </li>
+          <li>
+            <a href="" class="nav-link">About US</a>
+          </li>
+          <li>
+            <a href="" class="nav-link">
+              <small>0</small>
+              <img class="cart" src="assets/web images/cart.png" alt="Cart" />
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <!-- Search Product Bar -->
+      <div class="search-product" id="search">
+        <form class="form-search" action="">
+          <div class="input-group mb-3">
+            <input
+              value=""
+              type="text"
+              name="search"
+              class="form-control"
+              placeholder="Search for Products"
+            />
+            <div class="input-group-append">
+              <button class="btn btn-outline-primary search-btn" type="submit">
+                Search
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+    <section>
+      <div class="wishlist_header">
+        <h1>Wish Lists</h1>
+        <a href="#" class="btn btn-outline-primary">
+          <span>+</span>
+          Create a New List
+        </a>
+      </div>
+      <div class="all_lists_show">
+        <!-- !This List is for designing list don't add it -->
+        <div class="list">
+          <div class="listicon_cont">
+            <img src="assets/web images/Lists.png" alt="List Icon" />
+          </div>
+          <div class="heading">
+            <div class="list-name">
+              <h3>List 1</h3>
+            </div>
+            <div class="moreinfo">
+              <span>No. of Products:0 </span>
+              <span>Recipient Name: </span>
+            </div>
+          </div>
+          <div class="options">
+            <a href="#" class="btn btn-success"> Manage List </a>
+            <a href="#" class="btn btn-danger"> Delete List </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer_main_cont">
+        <div class="leftside_footer">
+          <h3>About ME.</h3>
+          <p>
+            I am Vinay Kanse.I made this project for learning and I know
+            technologies HTML,CSS,JS,PHP,C++.This is my first real world dynamic
+            programming project with PHP as Server Side Language.
+          </p>
+        </div>
+        <div class="footersite_cont">
+          <ul class="">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Queries</a></li>
+          </ul>
+          <ul class="">
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Today's Special Deals</a></li>
+            <li><a href="#">Connect Us on Facebook</a></li>
+            <li><a href="#">Connect Us on Twitter</a></li>
+          </ul>
+          <ul class="Logins">
+            <li>
+              <a class="font-weight-bold" href="#">Sell With Us</a>
+            </li>
+            <li>
+              <a class="text-truncate" href="#"><b>Login</b> As Seller</a>
+            </li>
+            <li><a href="#">Teams</a></li>
+            <li><a href="#">Advertise</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- <script src="./js/bootstrap.js"></script> -->
+    <script src="./js/app.js"></script>
+  </body>
+</html>

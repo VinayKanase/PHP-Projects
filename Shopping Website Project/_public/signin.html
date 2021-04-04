@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="css/fontawesome.css" /> -->
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <title>Shopping Website</title>
+  </head>
+  <body>
+    <marquee>This is my Learning Project not real website</marquee>
+    <header class="bg-dark bg-custom">
+      <nav class="navbar side-navs">
+        <a class="btn btn-primary btn-hoverout" href="signin.html">Sign in</a>
+        <a class="btn btn-primary btn-hoverout" href="signup.html">Sign up</a>
+      </nav>
+      <nav class="main navbar">
+        <a class="navbar-brand text-white" href="/">Shopping Website</a>
+        <ul class="nav">
+          <li>
+            <a href="/" class="nav-link active">Home</a>
+          </li>
+          <li>
+            <a href="categories.html" class="nav-link">Shop by Categories</a>
+          </li>
+          <li class="disabled" style="opacity: 0.2; cursor: not-allowed">
+            <a href="" class="nav-link" style="cursor: not-allowed"
+              >Your Orders</a
+            >
+          </li>
+          <li>
+            <a href="wishlist.html" class="nav-link">Your Wish List</a>
+          </li>
+          <li>
+            <a href="accountsettings.html" class="nav-link"
+              >Your Account Settings</a
+            >
+          </li>
+          <li>
+            <a href="" class="nav-link">About US</a>
+          </li>
+          <li>
+            <a href="cart.html" class="nav-link">
+              <small>0</small>
+              <img class="cart" src="assets/web images/cart.png" alt="Cart" />
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="signup">
+      <div class="form signin">
+        <form class="form-signin idsignin" method="post">
+          <h2 class="text-white font-weight-bold text-uppercase head">
+            Sign In
+          </h2>
+          <label class="sr-only">Username</label>
+          <input
+            type="text"
+            class="form-control"
+            name="Username"
+            placeholder="Username"
+            required
+            autofocus
+          />
+          <label for="inputEmail" class="sr-only">Email address</label>
+          <input
+            type="email"
+            name="Email"
+            class="form-control"
+            placeholder="Email address"
+            required
+            autofocus
+          />
+          <label for="inputPassword" class="sr-only">Password</label>
+          <input
+            type="password"
+            name="Password"
+            class="form-control"
+            placeholder="Password"
+            required
+          />
+          <button
+            class="btn btn-lg btn-success btn-block btn-signin"
+            type="submit"
+          >
+            Sign in
+          </button>
+        </form>
+      </div>
+    </section>
+    <footer class="signup-footer">
+      <div class="footer_main_cont">
+        <div class="leftside_footer">
+          <h3>About ME.</h3>
+          <p>
+            I am Vinay Kanse.I made this project for learning and I know
+            technologies HTML,CSS,JS,PHP,C++.This is my first real world dynamic
+            programming project with PHP as Server Side Language.
+          </p>
+        </div>
+        <div class="footersite_cont">
+          <ul class="">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Queries</a></li>
+          </ul>
+          <ul class="">
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Today's Special Deals</a></li>
+            <li><a href="#">Connect Us on Facebook</a></li>
+            <li><a href="#">Connect Us on Twitter</a></li>
+          </ul>
+          <ul class="Logins">
+            <li>
+              <a class="font-weight-bold" href="#">Sell With Us</a>
+            </li>
+            <li>
+              <a class="text-truncate" href="#"><b>Login</b> As Seller</a>
+            </li>
+            <li><a href="#">Teams</a></li>
+            <li><a href="#">Advertise</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- <script src="./js/bootstrap.js"></script> -->
+    <script src="./js/app.js"></script>
+  </body>
+</html>
